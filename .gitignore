@@ -28,3 +28,23 @@ examples/exp*
 .claude/
 *.wav
 *.jsonl
+
+# --- comp/ (OmniVoice Studio: server, GUI, installer) — local data never ships
+comp/.venv/
+comp/ref/*
+!comp/ref/.gitkeep
+comp/ref-output/*
+!comp/ref-output/.gitkeep
+comp/ref-input/*
+!comp/ref-input/.gitkeep
+comp/models/
+comp/audio/
+comp/server/audio/
+comp/prompt_cache/
+comp/demo_out/
+comp/gui/out/
+comp/gui/refclips/
+comp/installer/build/
+comp/installer/dist/
+comp/installer/Output/
+*.log
